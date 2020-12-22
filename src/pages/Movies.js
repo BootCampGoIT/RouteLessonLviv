@@ -1,10 +1,15 @@
 import React, { Suspense, useEffect } from "react";
 import { movieRoutes } from "../routes/movieRoutes";
-import { NavLink, Switch, Route } from "react-router-dom";
+import { NavLink, Switch, Route, useLocation, useHistory, useRouteMatch } from "react-router-dom";
 
 console.log(React)
 
 const Movies = (props) => {
+    // const location = useLocation();
+    // const history = useHistory();
+    // const match = useRouteMatch();
+    // console.log(location)
+
 
 //   useEffect(() => {
 //     props.history.push(`${props.match.url}/cast`);
